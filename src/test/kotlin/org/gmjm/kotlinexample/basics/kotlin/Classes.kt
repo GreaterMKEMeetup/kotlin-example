@@ -141,8 +141,8 @@ class Test3 {
         val exampleA: Example = Example("a","b","c","d")
         val exampleB: Example = exampleA.copy()
 
-        println("A: ${exampleA}")
-        println("B: ${exampleB}")
+        println("A: $exampleA")
+        println("B: $exampleB")
         println()
         println("== ${exampleA == exampleB}") // true
         println("=== ${exampleA === exampleB}") // false
@@ -154,8 +154,8 @@ class Test3 {
         exampleB.d = "e"
 
         println()
-        println("A: ${exampleA}")
-        println("B: ${exampleB}")
+        println("A: $exampleA")
+        println("B: $exampleB")
         println()
         println("== ${exampleA == exampleB}") // true
         println("=== ${exampleA === exampleB}") // false
